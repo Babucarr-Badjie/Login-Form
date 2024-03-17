@@ -7,10 +7,7 @@ body {
   font-family: "Tahoma";
   font-size: 16px;
 }
-label {
-  display: block;
-  margin: 0.6rem 0;
-}
+
 h1,
 p {
   margin: 1em auto;
@@ -23,7 +20,38 @@ form {
   min-width: 300px;
   width: 60vw;
 }
+label {
+  display: block;
+  margin: 0.6rem 0;
+}
+input,
+select,
+textarea {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input,
+textarea{
+  background-color: #0a0a23;
+  border: 1px solid #0a0a23;
+  color: #ffffff;
+  
+}
+
 fieldset {
   border: none;
   padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+.display-inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
 }

@@ -42,19 +42,25 @@
             id="personal-account"
             type="radio"
             name="account-type"
+            class="display-inline"
             checked
           />
           Personal
         </label>
         <label for="business-account">
-          <input id="business-account" type="radio" name="account-type" />
+          <input
+            id="business-account"
+            type="radio"
+            name="account-type"
+            class="display-inline"
+          />
           Business
         </label>
       </fieldset>
       <fieldset>
         <label for="profile-picture"
           >Upload a profile picture:
-          <input type="file" id="profile-picture" name="profilePicture"/>
+          <input type="file" id="profile-picture" name="profilePicture" />
         </label>
         <label for="age"
           >Input your age (years):
@@ -86,7 +92,12 @@
         </label>
       </fieldset>
       <label for="terms-and-conditions">
-        <input id="terms-and-conditions" type="checkbox" name="ourTerms" required />
+        <input
+          id="terms-and-conditions"
+          type="checkbox"
+          name="ourTerms"
+          required
+        />
         I accept the <a href="#">terms and conditions</a>
       </label>
       <button type="submit">Submit</button>
