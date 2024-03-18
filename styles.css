@@ -33,11 +33,10 @@ textarea {
 }
 
 input,
-textarea{
+textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
-  
 }
 
 fieldset {
@@ -46,7 +45,6 @@ fieldset {
   border-bottom: 3px solid #3b3b4f;
 }
 
-
 fieldset:last-of-type {
   border-bottom: none;
 }
@@ -54,4 +52,26 @@ fieldset:last-of-type {
   width: unset;
   margin: 0 0.5em 0 0;
   vertical-align: middle;
+}
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+a {
+  color: #dfdfe2;
+}
+button {
+  display: block;
+  font-size: 16px;
+  background-color: #3b3b4f;
+  color: #ffffff;
+  margin: 1em auto;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 20%;
+}
+button:hover {
+  background-color: #ffffff;
+  color: #3b3b4f;
 }
