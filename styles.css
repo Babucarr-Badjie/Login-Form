@@ -6,6 +6,7 @@ body {
   color: #f5f6f7;
   font-family: "Tahoma";
   font-size: 16px;
+  
 }
 
 h1,
@@ -19,6 +20,7 @@ form {
   max-width: 600px;
   min-width: 300px;
   width: 60vw;
+  
 }
 label {
   display: block;
@@ -37,6 +39,7 @@ textarea {
   background-color: #0a0a23;
   border: 1px solid #0a0a23;
   color: #ffffff;
+  font-size: 16px;
 }
 
 fieldset {
@@ -70,6 +73,7 @@ button {
   cursor: pointer;
   border-radius: 6px;
   width: 20%;
+  
 }
 button:hover {
   background-color: #ffffff;
